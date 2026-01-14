@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luffah - Project Details | Toirov Bekzod</title>
+    <meta name="description" content="Detailed information about the Luffah project by Toirov Bekzod, showcasing modern web development practices." />
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: 'hsl(195, 85%, 45%)',
+              'primary-foreground': 'hsl(0, 0%, 100%)',
+              secondary: 'hsl(210, 15%, 92%)',
+              'secondary-foreground': 'hsl(215, 25%, 15%)',
+              muted: 'hsl(210, 15%, 95%)',
+              'muted-foreground': 'hsl(215, 15%, 45%)',
+              accent: 'hsl(185, 75%, 50%)',
+              border: 'hsl(210, 20%, 88%)',
+              background: 'hsl(210, 20%, 98%)',
+              foreground: 'hsl(215, 25%, 15%)',
+              card: 'hsl(0, 0%, 100%)',
+              'card-foreground': 'hsl(215, 25%, 15%)',
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="bg-background text-foreground">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 border-b border-border/50 bg-background/95 backdrop-blur">
+      <div class="container max-w-6xl mx-auto px-6 py-4">
+        <a href="index.html" class="inline-flex items-center gap-2 text-foreground hover:text-primary transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Back to Portfolio
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 px-6 md:px-8 hero-gradient">
+      <div class="container max-w-6xl mx-auto text-center space-y-6 animate-fade-in">
+        <div class="inline-flex items-center justify-center w-20 h-20 rounded-2xl gradient-bg">
+          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold">Luffah</h1>
+        <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
+          A modern web application showcasing clean design and efficient development practices
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
+          <a href="#" class="btn-primary px-6 py-3 text-lg font-medium rounded-lg transition-opacity shadow-soft inline-block">
+            <span class="flex items-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+              Live Demo
+            </span>
+          </a>
+          <a href="#" class="btn-outline px-6 py-3 text-lg font-medium rounded-lg inline-block">
+            <span class="flex items-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+              View Code
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="py-16 px-6 md:px-8">
+      <div class="container max-w-6xl mx-auto">
+        <div class="card overflow-hidden shadow-card">
+          <div class="aspect-video bg-muted flex items-center justify-center">
+            <div class="text-center space-y-4 p-8">
+              <div class="w-16 h-16 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
+                <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <p class="text-muted-foreground">
+                Project demonstration video
+                <br />
+                <span class="text-sm">(Replace this with your video embed)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Information -->
+    <section class="py-16 px-6 md:px-8 bg-muted/30">
+      <div class="container max-w-6xl mx-auto space-y-12">
+        <div class="text-center space-y-4">
+          <h2 class="text-3xl md:text-4xl font-bold">Project Overview</h2>
+          <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Detailed information about the development process and features
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="card p-6 space-y-3">
+            <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold">Timeline</h3>
+            <p class="text-muted-foreground">2024 - Present</p>
+          </div>
+
+          <div class="card p-6 space-y-3">
+            <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold">Role</h3>
+            <p class="text-muted-foreground">Front-End Developer</p>
+          </div>
+
+          <div class="card p-6 space-y-3">
+            <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold">Status</h3>
+            <p class="text-muted-foreground">Active Development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Description Section -->
+    <section class="py-16 px-6 md:px-8">
+      <div class="container max-w-4xl mx-auto space-y-8">
+        <div class="card p-8 md:p-12 shadow-card">
+          <h2 class="text-2xl font-bold mb-6">About the Project</h2>
+          <div class="space-y-4">
+            <p class="text-lg leading-relaxed">
+              Luffah is a modern web application that demonstrates professional front-end 
+              development practices. The project focuses on creating an intuitive user 
+              experience with clean, maintainable code.
+            </p>
+            <p class="text-lg leading-relaxed">
+              Built with attention to detail, this project showcases responsive design 
+              principles, efficient code organization, and modern web development 
+              techniques. Every aspect of the application has been carefully crafted to 
+              ensure optimal performance and user satisfaction.
+            </p>
+            <p class="text-lg leading-relaxed">
+              The development process emphasized writing semantic HTML, utilizing CSS 
+              for elegant styling solutions, and implementing JavaScript for interactive 
+              features. The result is a polished, professional web application that 
+              serves as a testament to quality craftsmanship.
+            </p>
+          </div>
+        </div>
+
+        <!-- Technologies -->
+        <div class="card p-8 md:p-12 shadow-card">
+          <h2 class="text-2xl font-bold mb-6">Technologies Used</h2>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="p-4 rounded-lg tech-tag-large text-center font-medium">HTML5</div>
+            <div class="p-4 rounded-lg tech-tag-large text-center font-medium">CSS3</div>
+            <div class="p-4 rounded-lg tech-tag-large text-center font-medium">JavaScript</div>
+            <div class="p-4 rounded-lg tech-tag-large text-center font-medium">Responsive Design</div>
+            <div class="p-4 rounded-lg tech-tag-large text-center font-medium">Web Standards</div>
+            <div class="p-4 rounded-lg tech-tag-large text-center font-medium">Git</div>
+          </div>
+        </div>
+
+        <!-- Key Features -->
+        <div class="card p-8 md:p-12 shadow-card">
+          <h2 class="text-2xl font-bold mb-6">Key Features</h2>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <div class="w-6 h-6 rounded-full gradient-bg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div class="w-2 h-2 rounded-full bg-white"></div>
+              </div>
+              <span>Clean and modern user interface design</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-6 h-6 rounded-full gradient-bg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div class="w-2 h-2 rounded-full bg-white"></div>
+              </div>
+              <span>Fully responsive layout for all devices</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-6 h-6 rounded-full gradient-bg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div class="w-2 h-2 rounded-full bg-white"></div>
+              </div>
+              <span>Optimized performance and fast loading times</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-6 h-6 rounded-full gradient-bg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div class="w-2 h-2 rounded-full bg-white"></div>
+              </div>
+              <span>Cross-browser compatibility</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-6 h-6 rounded-full gradient-bg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div class="w-2 h-2 rounded-full bg-white"></div>
+              </div>
+              <span>Semantic HTML structure</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-6 h-6 rounded-full gradient-bg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div class="w-2 h-2 rounded-full bg-white"></div>
+              </div>
+              <span>Maintainable and well-documented code</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Challenges & Solutions -->
+        <div class="card p-8 md:p-12 shadow-card">
+          <h2 class="text-2xl font-bold mb-6">Challenges & Solutions</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-lg font-semibold mb-2 text-primary">Responsive Design</h3>
+              <p>
+                Ensured the application works seamlessly across all device sizes by 
+                implementing flexible layouts and mobile-first CSS approaches.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-2 text-primary">Performance Optimization</h3>
+              <p>
+                Optimized assets and implemented efficient code practices to achieve 
+                fast loading times and smooth user interactions.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-2 text-primary">Code Quality</h3>
+              <p>
+                Maintained high code quality through consistent formatting, clear 
+                documentation, and adherence to web development best practices.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 px-6 md:px-8 hero-gradient">
+      <div class="container max-w-4xl mx-auto text-center space-y-6">
+        <h2 class="text-3xl md:text-4xl font-bold">Interested in Learning More?</h2>
+        <p class="text-lg text-muted-foreground">
+          Feel free to reach out if you'd like to discuss this project in detail
+        </p>
+        <a 
+          href="https://t.me/beka77_official" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="btn-primary px-8 py-3 text-lg font-medium rounded-lg transition-opacity shadow-soft inline-block"
+        >
+          Contact on Telegram
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 md:px-8 border-t border-border/50">
+      <div class="container max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
+          <p>© 2024 Toirov Bekzod. All rights reserved.</p>
+          <p>Built with passion in Karshi, Uzbekistan</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
